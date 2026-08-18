@@ -1,4 +1,5 @@
-# Getting Started with GitHub Copilot
+pip install -r requirements.txt
+uvicorn src.app:app --host 0.0.0.0 --port 8000 --reload# Getting Started with GitHub Copilot
 
 <img src="https://octodex.github.com/images/Professortocat_v2.png" align="right" height="200px" />
 
