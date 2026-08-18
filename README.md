@@ -1,4 +1,14 @@
-# Getting Started with GitHub Copilot
+pip install -r requirements.txt
+uvicorn src.app:app --host 0.0.0.0 --port 8000 --reloadpip install -r requirements.txt
+uvicorn src.app:app --host 0.0.0.0 --port 8000 --reloadpip install -r requirements.txt
+uvicorn src.app:app --host 0.0.0.0 --port 8000 --reloadcurl -i http://127.0.0.1:8000/docs
+curl -i http://127.0.0.1:8000/static/index.htmlcurl -i http://127.0.0.1:8000/docs
+curl -i http://127.0.0.1:8000/static/index.htmlcurl -i http://127.0.0.1:8000/docs
+curl -i http://127.0.0.1:8000/static/index.htmlif email not in activity["participants"]:
+    activity["participants"].append(email)
+    return {"message": f"Signed up {email} for {activity_name}"}
+else:
+    raise HTTPException(status_code=400, detail="Already signed up for this activity")# Getting Started with GitHub Copilot
 
 <img src="https://octodex.github.com/images/Professortocat_v2.png" align="right" height="200px" />
 
