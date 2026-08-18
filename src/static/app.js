@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (details.participants.length > 0) {
           participantsHTML = `<div class="participants-section"><h5>Participants:</h5><ul class="participants-list">${details.participants.map(participant => `<li class="participant-item"><span class="participant-name">${participant}</span><button class="delete-btn" data-activity="${name}" data-email="${participant}" title="Remove participant">✕</button></li>`).join('')}</ul></div>`;
         } else {
-          participantsHTML = '<p class="no-participants">No participants yet</p>';
+          participantsHTML = '<div class="participants-section"><h5>Participants:</h5><p class="no-participants">No participants yet</p></div>';
         }
 
         activityCard.innerHTML = `
